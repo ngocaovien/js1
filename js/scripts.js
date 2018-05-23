@@ -15,4 +15,10 @@ var myHobby = "My favorite hobby is, wait for it, slacking off. Kidding. I like 
 console.log(myHope);
 console.log(myHobby);
 
-var elHope = document.getElementById("hope");
+function findHope() {
+    document.getElementById("hope").innerHTML = myHope;
+}
+
+function findHobby() {
+    document.getElementById("hobby").innerHTML = myHobby;
+}
