@@ -9,29 +9,27 @@
   <link rel="stylesheet" href="css/styles.css">
   <!--BOOTSTRAP LINK-->
   <link href="css/bootstrap.min.css" rel="stylesheet">
-
+  <!--GOOGLE FONTS-->
+  <link href="https://fonts.googleapis.com/css?family=Audiowide|Monoton|Permanent+Marker|Press+Start+2P" rel="stylesheet">
   <title>Vien's Javascript</title>
 </head>
 
 <body>
-  <div class="top text-center whiteText">
-    <h1>Take Home Day Two</h1>
-  </div>
-  <div class="container">
+  <div class="wrapper">
+    <div class="box_glow">
+      <p>Take Home Day Two</p>
+    </div>
     <div class="row">
-      <div class="box whiteText margin20px text-center">
-        <h2></h2>
-        <div id="movie">What's my favorite movie?</div>
-        <button class="margin20px" onclick="findMovie()">Click here to find out</button>
+      <div class="col-md-6 blue box box_glow">
+        <p id="yourName"></p>
+        <button class="margin20px" onclick="loadYourName()">Click for your name.</button>
       </div>
-      <div class="box whiteText margin20px text-center">
-        <h2>What's my most favorite hobby?</h2>
-        <div id="hobby"></div>
-        <button class="margin20px" onclick="findHobby()">So what at is my hobby?</button>
+      <div class="col-md-6 red box box_glow">
+        <p id="yourBirthday"></p>
+        <button class="margin20px" onclick="loadYourBirthday()">Click for your birthday.</button>
       </div>
     </div>
   </div>
-
   <script src="js/scripts.js"></script>
 </body>
 
