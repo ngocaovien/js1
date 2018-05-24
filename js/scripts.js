@@ -69,8 +69,12 @@
 let favMovie = "2046";
 let favFood = "curry";
 
-const favMovieYear ="2006";
+const favMovieYear =new Date(5/21/1980);
 const favFoodIngri = ['rice', ' potatoes', ' spices']
 
 alert("My favorite food is " + favFood + " which is made of " + favFoodIngri);
-let userAnswer = confirm("Is your favorite movie " + favMovie + " that came out in " + favMovieYear +"?")
+let userAnswer = confirm("Is your favorite movie " + favMovie + " that came out in " + favMovieYear +"?");
+
+function findMovie() {
+    document.getElementById("movie").innerHTML = favMovie;
+}
