@@ -1,6 +1,4 @@
-var myName = "Vien";
 
-console.log(myName);
 
 
 // var //reserve word
@@ -22,3 +20,7 @@ function findHope() {
 function findHobby() {
     document.getElementById("hobby").innerHTML = myHobby;
 }
+
+var myName;
+console.log(myName);
+myName = "Vien";
